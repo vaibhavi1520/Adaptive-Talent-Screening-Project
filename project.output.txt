@@ -1,0 +1,53 @@
+System Start…
+Loading modules…
+Whisper engine initialized.
+Gemini API connected.
+Reinforcement Learning model loaded (Q-table updated).
+
+Question 1: Explain the importance of using attention mechanisms in NLP models.
+Recording answer…
+Transcribing…
+Candidate Answer: Attention helps models focus on important words in a sentence.
+
+— Evaluation for Question 1 —
+Score: 0.45 / 1.00
+Feedback: The answer is partially correct but lacks depth. Needs explanation of how attention improves context handling and long-range dependency understanding.
+
+Question 2: How does your system extract skills from a resume?
+Recording answer…
+Transcribing…
+Candidate Answer: It extracts the words from the resume.
+
+— Evaluation for Question 2 —
+Score: 0.30 / 1.00
+Feedback: Explanation is too shallow. Should mention keyword extraction, NLP parsing, and skill-matching methods.
+
+Question 3: Describe how your RL model chooses the next question.
+Recording answer…
+Transcribing…
+Candidate Answer: It checks the score and selects another question.
+
+— Evaluation for Question 3 —
+Score: 0.40 / 1.00
+Feedback: The idea is correct but incomplete. Needs mention of state, action, reward, and Q-value updates.
+
+Question 4: What improvements did your system show after training?
+Recording answer…
+Transcribing…
+Candidate Answer: It gives better questions sometimes.
+
+— Evaluation for Question 4 —
+Score: 0.35 / 1.00
+Feedback: Answer lacks detail. Should highlight improved question difficulty selection and relevance based on past performance.
+
+Question 5: How does speech-to-text help in creating a real interview environment?
+Recording answer…
+Transcribing…
+Candidate Answer: It converts speech to text.
+
+— Evaluation for Question 5 —
+Score: 0.55 / 1.00
+Feedback: Correct but too basic. Needs mention of how voice interaction enhances realism and candidate engagement.
+
+Interview Completed.
+Final Cumulative Score: 2.05 / 5.00
