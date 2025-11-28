@@ -96,7 +96,7 @@ job_keywords = extract_keywords(job_text)
 matched_keywords = resume_keywords & job_keywords
 
 # --------------------- Gemini API Configuration and Functions ---------------------
-genai.configure(api_key="AIzaSyB3Hfn2PHJtrkbjYYVOERXStLtF5vqMUus")
+genai.configure(api_key="YOUR API KEY")
 
 def generate_dynamic_question(job_description, resume, candidate_history, prev_answer, prev_questions, question_type):
     """
@@ -295,5 +295,6 @@ timestamp = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
 backup_file = f"q_table_{timestamp}.pkl"
 with open(backup_file, 'wb') as f:
     pickle.dump(q_table, f)
+
 
 
